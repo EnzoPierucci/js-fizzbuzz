@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
     
     let container = document.createElement("div");
     container.classList.add("d-flex", "flex-wrap", "justify-content-around", "align-items-start");
-    document.body.appendChild(container);
+    document.getElementById("start").appendChild(container);
 
     for (let i = 1; i <= 100; i++) {
       let element = document.createElement("div");
